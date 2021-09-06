@@ -9,6 +9,6 @@ pipelines:
   branches:
     development:
       - step:
-        name: Just a simple yo!
-        script: 
-          - echo "Yo world!"
+          name: Just a simple yo!
+          script: 
+            - echo "Yo world!"
