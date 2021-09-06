@@ -5,7 +5,7 @@
 
 pipelines:
   branches:
-    development:
+    master:
       - step:
           name: Just a simple yo!
           script: 

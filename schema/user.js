@@ -54,6 +54,5 @@ const userSchema = new mongoose.Schema({
     }
 });
 
-// test 2
 
 export {userSchema};
