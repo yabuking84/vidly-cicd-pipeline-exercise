@@ -1,0 +1,33 @@
+FROM node:14.17
+
+WORKDIR /app
+
+# or you can use COPY package*.json .
+COPY package.json /app
+
+
+# npm install nodemon doesnt need to be explicitly run because its already included in the independencies
+RUN npm install 
+    # && npm install -g nodemon \
+    # && apt-get update && apt-get install -y vim
+
+
+# or you can use COPY . .
+COPY . /app
+
+ENV PORT=3030 \
+    DEBUG=app:startup,app:db,app:default,app:error \
+    VIDLY_EMAIL_PASSWORD=emailpassword_dev \
+    VIDLY_JWT_KEY=jwt_key_dev \
+    CHOKIDAR_USEPOLLING=true \
+    NODE_ENV=development \
+    # auth0 environment
+    VIDLY_AUTH0_ISSUERBASEURL=https://yabuking84.auth0.com \
+    VIDLY_AUTH0_BASEURL=http://localhost:3030 \
+    VIDLY_AUTH0_CLIENTID=5976mBcu5cs3C0RbdSQPVSErsMZLM6Ew \
+    VIDLY_AUTH0_SECRET=vidly_auth0_supersecret
+
+
+EXPOSE 3030 
+
+CMD ["npm","run","dev"]

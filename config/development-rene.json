@@ -1,0 +1,8 @@
+{
+    "name":"Vidly Development Rene",
+    "port":3030,
+    "mail": {
+        "host": "rene-email-url"
+    },
+    "jwt_key": "rene jwt"
+}

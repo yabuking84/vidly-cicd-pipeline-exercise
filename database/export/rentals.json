@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "61236645b0ad013750fddb9a"
+  },
+  "dateRented": {
+    "$date": "2021-08-23T08:58:37.908Z"
+  },
+  "customer": {
+    "_id": {
+      "$oid": "6120a2a75bf2233174a8b474"
+    },
+    "name": "mhjmgghgh"
+  },
+  "movie": {
+    "_id": {
+      "$oid": "612358334d3111257c2e3b7f"
+    },
+    "name": "Red Stars (2021)"
+  },
+  "dailyRentalFee": 13.9,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61236669b0ad013750fddba4"
+  },
+  "dateRented": {
+    "$date": "2021-08-23T08:58:37.908Z"
+  },
+  "customer": {
+    "_id": {
+      "$oid": "6120a2017be5ac4ec004b842"
+    },
+    "name": "rene rowell"
+  },
+  "movie": {
+    "_id": {
+      "$oid": "612358334d3111257c2e3b7f"
+    },
+    "name": "Red Stars (2021)"
+  },
+  "dailyRentalFee": 13.9,
+  "__v": 0
+}]

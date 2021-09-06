@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6120a2017be5ac4ec004b842"
+  },
+  "rank": "silver",
+  "name": "rene rowell",
+  "age": 21,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120a2a75bf2233174a8b474"
+  },
+  "rank": "silver",
+  "name": "mhjmgghgh",
+  "age": 21,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6120a2c35bf2233174a8b477"
+  },
+  "rank": "silver",
+  "name": "bfbvfbfbf",
+  "age": 21,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6121e1d71e628c4f08f4ee04"
+  },
+  "rank": "gold",
+  "name": "gghghghgh",
+  "age": 33,
+  "__v": 0
+}]

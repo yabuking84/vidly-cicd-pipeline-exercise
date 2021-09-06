@@ -1,0 +1,7 @@
+{
+    "name":"Vidly Development Mode",
+    "port":3030,
+    "mail": {
+        "host": "test-email-url"
+    }
+}

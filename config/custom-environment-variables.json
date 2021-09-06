@@ -1,0 +1,12 @@
+{
+    "mail": {
+        "password": "VIDLY_EMAIL_PASSWORD"
+    },
+    "jwt_key": "VIDLY_JWT_KEY",
+    "auth0": {
+        "issuerBaseURL": "VIDLY_AUTH0_ISSUERBASEURL",
+        "baseURL": "VIDLY_AUTH0_BASEURL",
+        "clientID": "VIDLY_AUTH0_CLIENTID",
+        "secret": "VIDLY_AUTH0_SECRET"
+    }
+}

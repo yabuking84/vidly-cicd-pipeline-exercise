@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6122333698afbc28544867f4"
+  },
+  "inStock": 5,
+  "name": "movie update test comedy super",
+  "genre": {
+    "$oid": "6121e451daf0612ec82690d5"
+  },
+  "__v": 0,
+  "dailyRentalRate": 99.09
+},{
+  "_id": {
+    "$oid": "612241088227951608eff418"
+  },
+  "inStock": 20,
+  "name": "This is a action movie",
+  "genre": {
+    "$oid": "6120bd75163672509c1f59f8"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "612358334d3111257c2e3b7f"
+  },
+  "inStock": 8,
+  "name": "Red Stars (2021)",
+  "genre": {
+    "$oid": "6120bd75163672509c1f59f8"
+  },
+  "dailyRentalRate": 13.9,
+  "__v": 0
+}]
