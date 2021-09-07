@@ -1,6 +1,7 @@
 import winston from 'winston';
-import winstonMongodb from 'winston-mongodb';
-
+// disabled mongodb logger for now for the integration test
+// import winstonMongodb from 'winston-mongodb';
+ 
 
 
 const format = winston.format;
@@ -39,18 +40,19 @@ const logger = winston.createLogger({
                 // printFormat // <-- commented out because it will log as what printFormat function states
             )
         }),
-        new winston.transports.MongoDB({
-            db: 'mongodb://mongodb/vidly',
-            options: {
-                'useNewUrlParser': true,
-                'useUnifiedTopology': true
-            },
-            metaKey:'meta',
-            level: 'error',
-            format: format.combine(
-                printFormat
-            )
-        })
+        // disabled mongodb logger for now for the integration test
+        // new winston.transports.MongoDB({
+        //     db: 'mongodb://mongodb/vidly',
+        //     options: {
+        //         'useNewUrlParser': true,
+        //         'useUnifiedTopology': true
+        //     },
+        //     metaKey:'meta',
+        //     level: 'error',
+        //     format: format.combine(
+        //         printFormat
+        //     )
+        // })
     ]
 });
 

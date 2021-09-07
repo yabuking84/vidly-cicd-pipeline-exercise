@@ -1,15 +1,9 @@
 import validator from '../modules/validator.js';
-
 import err from '../modules/error.js';
-
-import mongoose from 'mongoose';
-
 import bcrypt from 'bcrypt';
+import userModel from '../model/user.js';
 
-import user from './user.js';
-
-const User = user.getModel();
-
+const User = userModel.Model;
 
 
 function loginUser(email,password){return new Promise(async(resolve,reject)=>{

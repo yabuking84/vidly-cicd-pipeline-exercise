@@ -1,16 +1,7 @@
 import validator from '../modules/validator.js';
 import  err from '../modules/error.js';
 import em from '../middleware/error.js';
-import mongoose from 'mongoose';
-import { genreSchema } from '../schema/genre.js';
 
-const Genre = mongoose.model('Genres',genreSchema);
-
-
-
-function getModel(){
-    return Genre;    
-}
 
 function getAllGenres(page=0){ return new Promise(async (resolve, reject)=>{
     try {

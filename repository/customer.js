@@ -1,17 +1,7 @@
-import mongoose from 'mongoose';
 import validator from '../modules/validator.js';
 import debug from '../modules/debug.js';
 import err from '../modules/error.js';
 
-import { customerSchema } from '../schema/customer.js';
-
-
-const Customer = mongoose.model('Customers',customerSchema);
-
-
-function getModel(){
-    return Customer;    
-}
 
 function getAllCustomers(page=0){ return new Promise( async (resolve,reject)=>{
     try {

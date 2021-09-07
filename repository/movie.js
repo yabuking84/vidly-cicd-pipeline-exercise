@@ -6,17 +6,9 @@ import debug from '../modules/debug.js';
 import _ from "lodash";
 
 import  err from '../modules/error.js';
-import mongoose from 'mongoose';
 
 import {countGenre as countTheGenre} from './genre.js';
-import { movieSchema } from '../schema/movie.js';
 
-const Movie  = mongoose.model('Movies',movieSchema);
-
-
-function getModel(){
-    return Movie;    
-}
 
 
 function getAllMovies(page=0){return new Promise(async(resolve,reject)=>{
