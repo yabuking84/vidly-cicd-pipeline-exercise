@@ -1,3 +1,6 @@
 {
-    "name":"Vidly Test Mode"
+    "name":"Vidly Test Mode",
+    "db": {
+        "connectionUrl": "mongodb://mongodb/vidly_tests"
+    }
 }

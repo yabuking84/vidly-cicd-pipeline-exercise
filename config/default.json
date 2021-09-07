@@ -1,3 +1,6 @@
 {
-    "name":"Vidly"
+    "name":"Vidly",
+    "db": {
+        "connectionUrl": "mongodb://mongodb/vidly"
+    }    
 }

@@ -3,7 +3,7 @@ import config from 'config';
 import debug from '../modules/debug.js';
 import testMiddleware, {var1} from '../middleware/test.js';
 import auth0 from '../authentication/auth0.js';
-import auth0TestRoute from '../controller/auth0-test.js.js';
+import auth0TestRoute from '../controller/auth0-test.js';
    
 import ex_1 from '../experiments/ex_1.js';
 import ex_2 from '../experiments/ex_2.js';

@@ -14,7 +14,6 @@ import { movieSchema } from '../schema/movie.js';
 const Movie  = mongoose.model('Movies',movieSchema);
 
 
-
 function getModel(){
     return Movie;    
 }
