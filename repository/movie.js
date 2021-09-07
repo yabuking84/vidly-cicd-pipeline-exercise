@@ -157,7 +157,6 @@ function findMovieById(movieId){return new Promise(async(resolve,reject)=>{
 export {findMovieById};
 
 export default {
-    getModel,
     getAllMovies,
     addMovie,
     updateMovie,

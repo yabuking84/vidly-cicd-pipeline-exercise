@@ -60,7 +60,6 @@ function emailExist(email){return new Promise(async(resolve,reject)=>{
 });}
 
 export default {
-    getModel,
     addUser,
     emailExist,
     getUser,

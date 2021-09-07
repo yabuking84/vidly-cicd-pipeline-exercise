@@ -230,7 +230,6 @@ class TestAsync {
 export {findCustomerById};
 
 export default {
-    getModel,
     getAllCustomers,
     getCustomerByName,
     findCustomerById,

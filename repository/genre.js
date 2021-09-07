@@ -127,7 +127,6 @@ export {countGenre};
 
 
 export default {
-    getModel,
     getAllGenres,
     getGenreByName,
     countGenre,
