@@ -1,9 +1,9 @@
-import genres from '../routes/genres.js';
-import customers from '../routes/customers.js';
-import movies from '../routes/movies.js';
-import rentals from '../routes/rentals.js';
-import users from '../routes/users.js';
-import auth from '../routes/auth.js';
+import genres from '../controller/genres.js.js';
+import customers from '../controller/customers.js.js';
+import movies from '../controller/movies.js.js';
+import rentals from '../controller/rentals.js.js';
+import users from '../controller/users.js';
+import auth from '../controller/auth.js.js';
 
 import error from '../middleware/error.js';
 
